@@ -1,0 +1,41 @@
+
+.card{
+    width: 200px;
+    min-height: 450px;
+     gap: 1rem;
+     box-shadow: 9px 4px 24px 0px rgba(0, 0, 0, 0.247);
+     padding-inline: 1rem;
+     padding-block: 1rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 9px 4px 24px 0px rgba(0,0,0,0.75);
+    transition: all 0.6s;
+}
+.item-img{
+    width: 200px;
+    height: 200px;
+}
+
+.item-title{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    height: 50px;
+}
+
+.button-item{
+    border: none;
+    padding: .75rem;
+    border-radius: 0.5rem;
+    background-color: antiquewhite;
+}
+.button-item:hover{
+    background-color: burlywood;
+    cursor: pointer;
+    transition: all 0.5s;
+}

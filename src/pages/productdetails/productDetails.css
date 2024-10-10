@@ -1,0 +1,39 @@
+.product-image{
+    width: 300px;
+    height: 500px;
+}
+.product-feature{
+    height: 500px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.count-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.count-wrapper button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.icon{
+    font-size: 2rem;
+}
+
+.addtobasket{
+    width: 100%;
+    background-color: rgb(207, 66, 66);
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+.addtobasket:hover{
+    background-color: rgb(138, 16, 16);
+    transition: all .4s;
+    cursor: pointer;
+}
