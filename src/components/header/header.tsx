@@ -52,7 +52,7 @@ const Header = () => {
     <div className=" wrapper">
       <div className="logo-wrapper">
         <img onClick={() => navigate("/")} className="logo" src={logo} />
-        <p style={{fontWeight:"bold"}}>FAKEAPİ STORE</p>
+        <p style={{fontWeight:"bold"}}>FAKESTORE APİ</p>
       </div>
       <div className="header-right">
         <div style={{ position: "relative" }}>

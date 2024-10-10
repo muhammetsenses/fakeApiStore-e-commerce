@@ -11,7 +11,7 @@ export const appSlice = createSlice({
     reducers:{
 
     },
-    extraReducers: (builder) => {
+    extraReducers: () => {
         
     },
 })
